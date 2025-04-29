@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #d5b778;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main.xml</font>
+</center></td></tr></table>
+<pre>
+<span class="s1">&lt;?</span><span class="s2">xml version</span><span class="s3">=&quot;1.0&quot; </span><span class="s2">encoding</span><span class="s3">=&quot;utf-8&quot;</span><span class="s1">?&gt;</span>
+<span class="s1">&lt;LinearLayout </span><span class="s2">xmlns:android</span><span class="s3">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s2">xmlns:tools</span><span class="s3">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s2">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s2">android:layout_height</span><span class="s3">=&quot;match_parent&quot;</span>
+    <span class="s2">android:orientation</span><span class="s3">=&quot;vertical&quot;</span>
+    <span class="s2">android:padding</span><span class="s3">=&quot;16dp&quot;</span>
+    <span class="s2">tools:context</span><span class="s3">=&quot;.MainActivity&quot;</span><span class="s1">&gt;</span>
+
+    <span class="s1">&lt;TextView</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;Demo Input Controls&quot;</span>
+        <span class="s2">android:textSize</span><span class="s3">=&quot;24sp&quot;</span>
+        <span class="s2">android:textStyle</span><span class="s3">=&quot;bold&quot;</span>
+        <span class="s2">android:layout_marginBottom</span><span class="s3">=&quot;24dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s4">&lt;!-- Date Time Controls --&gt;</span>
+    <span class="s1">&lt;TextView</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;1. Date Time Control&quot;</span>
+        <span class="s2">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s2">android:textStyle</span><span class="s3">=&quot;bold&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s1">&lt;Button</span>
+        <span class="s2">android:id</span><span class="s3">=&quot;@+id/btnPickDate&quot;</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;Pick Date&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s1">&lt;Button</span>
+        <span class="s2">android:id</span><span class="s3">=&quot;@+id/btnPickTime&quot;</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;Pick Time&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s1">&lt;TextView</span>
+        <span class="s2">android:id</span><span class="s3">=&quot;@+id/tvDateTimeResult&quot;</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;Selected Date/Time will appear here&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s2">android:layout_marginBottom</span><span class="s3">=&quot;16dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s4">&lt;!-- Alert Control --&gt;</span>
+    <span class="s1">&lt;TextView</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;2. Alert Dialog&quot;</span>
+        <span class="s2">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s2">android:textStyle</span><span class="s3">=&quot;bold&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s1">&lt;Button</span>
+        <span class="s2">android:id</span><span class="s3">=&quot;@+id/btnShowAlert&quot;</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;Show Alert Dialog&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s2">android:layout_marginBottom</span><span class="s3">=&quot;16dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s4">&lt;!-- Toast Control --&gt;</span>
+    <span class="s1">&lt;TextView</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;3. Toast Message&quot;</span>
+        <span class="s2">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s2">android:textStyle</span><span class="s3">=&quot;bold&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s1">&lt;Button</span>
+        <span class="s2">android:id</span><span class="s3">=&quot;@+id/btnShowToast&quot;</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;Show Toast Message&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span>
+        <span class="s2">android:layout_marginBottom</span><span class="s3">=&quot;16dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s4">&lt;!-- Input Phone Number --&gt;</span>
+    <span class="s1">&lt;TextView</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;4. Input Phone Number&quot;</span>
+        <span class="s2">android:textSize</span><span class="s3">=&quot;18sp&quot;</span>
+        <span class="s2">android:textStyle</span><span class="s3">=&quot;bold&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span><span class="s1">/&gt;</span>
+
+    <span class="s1">&lt;Button</span>
+        <span class="s2">android:id</span><span class="s3">=&quot;@+id/btnGoToPhoneInput&quot;</span>
+        <span class="s2">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+        <span class="s2">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+        <span class="s2">android:text</span><span class="s3">=&quot;Go to Phone Number Input&quot;</span>
+        <span class="s2">android:layout_marginTop</span><span class="s3">=&quot;8dp&quot;</span><span class="s1">/&gt;</span>
+
+<span class="s1">&lt;/LinearLayout&gt;</span>
+</pre>
+</body>
+</html>
