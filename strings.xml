@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Input Controls</string>
+    <string name="alert_title">Alert Dialog Example</string>
+    <string name="alert_message">This is an example of Alert Dialog in Android.</string>
+    <string name="alert_positive">OK</string>
+    <string name="alert_negative">Cancel</string>
+    <string name="toast_message">This is a Toast message example!</string>
+    <string name="date_selected">Selected Date: %1$s</string>
+    <string name="time_selected">Selected Time: %1$s</string>
+</resources>
